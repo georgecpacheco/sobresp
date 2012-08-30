@@ -1,0 +1,174 @@
+/* 
+    Document   : sobresp.css
+    Created on : 23/08/2012, 15:16:43
+    Author     : George Pacheco
+    Description:
+        Purpose of the stylesheet follows.
+*/
+* {
+        border: 0;
+        margin: 0;
+        padding: 0;
+}
+
+html, body {
+	height: 100%;
+}
+body {
+	background: url('../img/bg_body.jpg') repeat-x;
+	background-color: #009bb8;
+        color: #555;
+	margin: 0;
+	padding: 0;
+	position: relative;
+        font-family: Arial;
+}
+ul{
+    font-size: 0.75em;
+    margin: 10px 15px 15px 30px;
+}
+
+h1{
+        color: #001e23;
+        font-size: 1.25em;
+        font-style: normal;
+        margin-bottom: 10px;
+}
+h2{
+        color: #009dbb;
+        font-size: 0.98em;
+}
+
+p{
+        font-size: 0.75em;
+        margin: 10px 3px 6px 3px;
+}
+
+#principal {
+	min-height: 100%;
+        margin: 0 auto;
+	position: relative;
+}
+
+#header {
+	background: url('../img/bg_header.jpg');
+	margin: 0 auto;
+        position: relative;
+	height: 161px;
+	width: 940px;
+}
+#header_logo{
+    position: absolute;
+    top:32px;
+    left:20px;
+}
+#header_face{
+    position: absolute;
+    top:42px;
+    left:580px;
+}
+#content {
+        background: #fff;
+	margin: 0 auto;
+	position:relative;
+        height: 100%;
+	width: 940px;
+	padding-bottom: 90px;
+}
+#footer {
+	background: url('../img/bg_footer.png');
+        position: relative;
+        margin: 0 auto;
+	bottom: 0;
+	height: 175px;
+	width: 940px;
+}
+#footer a{
+    color: #fff;
+    text-decoration: none;
+}
+#footer a:hover{
+    text-decoration:underline;
+}
+
+#footer_atendimento{
+        position: absolute;
+        top: 10px;
+        left:75px;
+        text-align: right;
+}
+#footer_newsletter{
+        position: absolute;
+        top: 10px;
+        left:400px;
+        text-align: center;
+}
+#footer_contato{
+        position: absolute;
+        top: 10px;
+        left:660px;
+        text-align: left;
+}
+
+#footer_contato p{
+        margin: 3px 3px 5px 3px;
+}
+#footer_conteudo{
+        position: absolute;
+        color: #fff;
+        font-size: 0.75em;
+        top: 135px;
+        width: 940px;
+        text-align: center;
+}
+#big_slider{
+        margin: 0 auto;
+        height: 300px;
+        width: 940px;
+}
+
+#small_slider{
+        margin: 0 auto;
+        height: 95px;
+        width: 940px;
+}
+#colunas{
+       display: inline-block;
+}
+#col_esq {
+	float: left;
+	width: 670px;
+        margin: 15px 5px 10px 10px;
+        text-align: justify;
+        padding-right: 20px;
+}
+#col_dir {
+	float: right;
+        height: 370px;
+	width: 220px;
+        margin-top: 15px;
+        position: relative;
+}
+#noticias{
+    background: url('../img/bg_noticias.png');
+    position: relative;
+    height: 300px;
+    width: 210px;
+    margin-top: 10px;
+}
+#breadcrumb{
+    font-size: 0.70em;
+    margin-bottom: 10px;
+}
+#end_1{
+    width: 320px;
+    float: left;
+}
+#end_2{
+    width: 340px;
+    float: left;
+    margin-left: 10px;
+}
+#end_1 p{
+    line-height: 25px;
+}
