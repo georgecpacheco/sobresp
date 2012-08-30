@@ -41,6 +41,7 @@ h2{
 h4{
     color: #009dbb;
     font-size: 0.8em;
+    margin-bottom: 5px;
 }
 
 p{
@@ -175,4 +176,9 @@ p{
 }
 #end_1 p{
     line-height: 25px;
+}
+#form_contato{
+    float: left;
+    width: 700px;
+    margin-top: 10px;
 }
