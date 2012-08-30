@@ -38,6 +38,10 @@ h2{
         color: #009dbb;
         font-size: 0.98em;
 }
+h4{
+    color: #009dbb;
+    font-size: 0.8em;
+}
 
 p{
         font-size: 0.75em;
@@ -137,7 +141,7 @@ p{
 }
 #col_esq {
 	float: left;
-	width: 670px;
+	width: 680px;
         margin: 15px 5px 10px 10px;
         text-align: justify;
         padding-right: 20px;
@@ -167,7 +171,7 @@ p{
 #end_2{
     width: 340px;
     float: left;
-    margin-left: 10px;
+    margin-left: 20px;
 }
 #end_1 p{
     line-height: 25px;
